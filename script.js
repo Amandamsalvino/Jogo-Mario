@@ -44,6 +44,13 @@ const loop = setInterval(() => {
     
 }, 10);
 
+document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") { // Verifica se a tecla pressionada é "Enter"
+        location.reload(); // Recarrega a página
+    }
+});
+
+
 
 
 
